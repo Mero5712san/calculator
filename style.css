@@ -27,8 +27,8 @@ input{
     height: 70px;
     width: 260px;
     background-color:rgb(187, 184, 184);
-    box-shadow: inset -5px 5px 12px rgb(8, 8, 8),
-                inset  5px 5px 12px rgb(11, 11, 11);
+    box-shadow: inset -5px 5px 12px rgb(59, 59, 59),
+                inset  5px 5px 12px rgb(100, 97, 97);
     border: none;
     border-radius:10px;
     color: rgb(0, 0, 0);
@@ -51,6 +51,14 @@ button{
     font-size: 16px;
     font-size: x-large;
     color: aliceblue;
+}
+button:hover{
+    height: 48px;
+    box-shadow: -5px -5px 12px rgb(79, 74, 74),
+                    5px 5px 12px rgba(74, 70, 70, 0.813);
+    border: 2px solid rgb(33, 33, 33);
+    border-radius:10%;
+    margin: 8px;
 }
 .c{
     height: 48px;
